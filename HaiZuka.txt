@@ -1,0 +1,20 @@
+Cho một dãy n số tự nhiên, in ra số xuất hiện nhiều nhất trong dãy,
+nếu có nhiều số xuất hiện nhiều nhất thì in ra số nhỏ nhất.
+n < 10^5, 0 <= a[i] <= 10^6
+
+Ví dụ:
+5
+3 4 6 2 4
+Thì kết quả là 4
+Vì số 4 xuất hiện 2 lần (Nhiều nhất)
+
+Ví dụ:
+6
+3 6 2 3 1 2
+Thì kết quả là 2
+(Vì 2 và 3 cùng xuất hiện với số lần là lớn nhất (=2), mình sẽ đưa ra số nhỏ hơn là 2
+
+Ví dụ:
+7
+1 2 4 1 2 4 1
+Thì kết quả là: 1
